@@ -17,6 +17,7 @@ import Register from "./Register";
 import ChildTodo from "./components/ChildTodo";
 import TodoParent from "./TodoParent";
 import UseReducer from "./UseReducer";
+import SupplierList from './pages/SupplierList';
 function App() {
 
   return (
@@ -40,6 +41,8 @@ function App() {
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/register' element={<Register/>}/>
         <Route path='/reducer' element={<UseReducer/>}/>
+        <Route path='/supplier' element={<SupplierList/>}/>
+
 
 
          <Route path='/*' element={<PageNotFound/>}/>

@@ -1,23 +1,24 @@
 import React from 'react'
 import {useState,useReducer} from "react";
+import reducer from './reducer'
 
-function reducer(state,action){
-    // console.log(action);
-    switch(action.type){
-        case'increment':{
-            return {value:state.value+1}
-        }
-        case'decrement':{
-            return {value:state.value-1}
-        }
-        case'reset':{
-            return {value:0}
-        }
-    }
-    return state;
+// function reducer(state,action){
+//     // console.log(action);
+//     switch(action.type){
+//         case'increment':{
+//             return {value:state.value+1}
+//         }
+//         case'decrement':{
+//             return {value:state.value-1}
+//         }
+//         case'reset':{
+//             return {value:0}
+//         }
+//     }
+//     return state;
     
 
-}
+// }
 
 const UseReducer = () => {
     // const [counter,setCounter]=useState(0);
