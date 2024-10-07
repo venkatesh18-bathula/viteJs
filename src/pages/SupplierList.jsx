@@ -23,7 +23,7 @@ const SupplierList = () => {
       rating: 4.5,
       totalSales: 5000,
       verified: true,
-      joinedDate: "2022-01-10",
+      joinedDate: "2022-01-1",
       logoUrl: "https://example.com/logo-electroworld.png",
     },
     {
