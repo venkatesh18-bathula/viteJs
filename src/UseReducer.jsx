@@ -37,7 +37,7 @@ const UseReducer = () => {
 <h1>counter:{state.value}</h1>
 <button onClick={()=>dispatch({type:'increment'})}>increment</button>
 <button onClick={()=>dispatch({type:'decrement'})}>decrement</button>
-<button onClick={()=>dispatch({type:'reset'})}>reset</button>
+<button onClick={()=>dispatch({type:'reset'})}>Reset</button>
 
     </>
   )
